@@ -35,6 +35,7 @@ PORTAL_IFACE_FILES =\
 	data/org.freedesktop.portal.RemoteDesktop.xml \
 	data/org.freedesktop.portal.Location.xml \
 	data/org.freedesktop.portal.Settings.xml \
+	data/org.freedesktop.portal.Wallpaper.xml \
 	$(NULL)
 
 PORTAL_IMPL_IFACE_FILES =\
@@ -143,6 +144,8 @@ xdg_desktop_portal_SOURCES = \
 	src/session.h			\
 	src/trash.c			\
 	src/trash.h			\
+        src/wallpaper.c                 \
+        src/wallpaper.h                 \
 	src/xdp-utils.c			\
 	src/xdp-utils.h			\
 	src/fc-monitor.c		\
